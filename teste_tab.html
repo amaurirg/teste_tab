@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Teste TAB</title>
+	<link rel="stylesheet" type="text/css" href="Semantic-UI-CSS-master/semantic.min.css">
+	<script src="Semantic-UI-CSS-master/semantic.min.js"></script>
+
+	<script type="text/javascript">
+	$(document).ready(function(){ $('.tabular.menu .item').tab();
+	 });
+	</script>
+
+</head>
+<body>
+	<div class="ui top attached tabular menu">
+	  <a class="active item" data-tab="first">First</a>
+	  <a class="item" data-tab="second">Second</a>
+	  <a class="item" data-tab="third">Third</a>
+	</div>
+	<div class="ui bottom attached active tab segment" data-tab="first">
+	  First
+	</div>
+	<div class="ui bottom attached tab segment" data-tab="second">
+	  Second
+	</div>
+	<div class="ui bottom attached tab segment" data-tab="third">
+	  Third
+	</div>
+</body>
+</html>
